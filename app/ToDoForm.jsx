@@ -8,7 +8,7 @@ const ToDoForm = () => {
         style={styles.input}
         placeholder="Add a new task..."
       />
-      <Button title="Add" />
+      <Button title="Add" onPress={() => {}} />
     </View>
   );
 };
@@ -16,8 +16,8 @@ const ToDoForm = () => {
 const styles = StyleSheet.create({
   form: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
+    justifyContent: 'space-between',
     marginHorizontal: 20,
     marginTop: 20,
   },

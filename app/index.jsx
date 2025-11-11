@@ -1,9 +1,10 @@
+// app/index.tsx
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import ToDoList from './ToDoList';
 import ToDoForm from './ToDoForm';
 
-function App() {
+export default function Index() {
   return (
     <SafeAreaView>
       <ToDoList />
@@ -11,5 +12,3 @@ function App() {
     </SafeAreaView>
   );
 }
-
-export default App;
